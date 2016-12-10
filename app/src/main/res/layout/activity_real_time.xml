@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_real_time"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_centerHorizontal="true"
+    tools:context="com.codevscolor.firebasedemo.realtimedatabase.RealTimeActivity">
+
+    <Button
+        android:text="Add data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/button_add"
+        android:onClick="addData"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:text="Add More data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_add_more"
+        android:onClick="addMore"
+         />
+
+    <Button
+        android:text="Append data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_append_data"
+        android:onClick="appendData"
+         />
+
+    <Button
+        android:text="Delete data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_delete"
+        android:onClick="deleteData"
+         />
+
+    <Button
+        android:text="Find data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_find"
+        android:onClick="findData"
+        />
+
+    <Button
+        android:text="Update data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_update"
+        android:onClick="updateData"
+        android:layout_marginBottom="23dp" />
+
+</LinearLayout>

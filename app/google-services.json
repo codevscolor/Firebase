@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "48550795511",
+    "firebase_url": "https://codevscolor-b7e06.firebaseio.com",
+    "project_id": "codevscolor-b7e06",
+    "storage_bucket": "codevscolor-b7e06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48550795511:android:0812df0af23bc5d8",
+        "android_client_info": {
+          "package_name": "com.codevscolor.firebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48550795511-f88se5c9ecsbdpagbmmlalboknm1v2k0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo6dsOfTCFqDRVVlZCIhdMXddhikGc1t0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
